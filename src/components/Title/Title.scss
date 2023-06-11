@@ -1,0 +1,15 @@
+.div-title {
+	display: flex;
+	margin: 16px 0;
+	align-items: center;
+
+	.icon {
+		margin-right: 8px;
+	}
+
+	h2 {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+	}
+}

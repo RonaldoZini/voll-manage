@@ -1,8 +1,10 @@
-import './App.css';
+import './App.scss';
+import Dashboard from './pages/Dashboard';
+import './styles/global.scss';
 
 function App() {
   return (
-    <h1>Voll Manage</h1>
+    <Dashboard></Dashboard>
   );
 }
 

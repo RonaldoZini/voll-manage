@@ -1,4 +1,8 @@
 export type IconType =
 	'evaluation' |
 	'graph' |
-	'medicine';
+	'medicine' |
+	'static-facebook' |
+	'static-whatsapp' |
+	'static-google' |
+	'static-instagram';

@@ -1,0 +1,31 @@
+footer {
+	display: flex;
+	height: 112px;
+	background-color: var(--primary-color);
+
+	.content {
+		padding: 24px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		justify-content: space-around;
+
+		.contact {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+
+			.icon {
+				margin: 0 12px;
+			}
+		}
+
+		.description {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+			color: var(--light-color);
+		}
+	}
+}

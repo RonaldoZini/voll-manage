@@ -1,8 +1,11 @@
+import { Props } from 'src/shared/interfaces/props.interface';
 import './Container.scss';
 
-const Container = () => {
+interface ContainerProps extends Props { }
+
+const Container = ({ children }: ContainerProps) => {
 	return (
-		<section></section>
+		<section>{children}</section>
 	);
 };
 
